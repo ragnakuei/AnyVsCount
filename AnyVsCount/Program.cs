@@ -26,10 +26,10 @@ namespace AnyVsCount
         }
 
         [Benchmark]
-        public void TestMethod1() => _test.Any();
+        public void Any() => _test.Any();
 
         [Benchmark]
-        public void TestMethod2() => _test.Count();
+        public void Count() => _test.Count();
     }
 
     public class TestClass
